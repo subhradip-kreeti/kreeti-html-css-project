@@ -428,13 +428,6 @@ address {
   }
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 769px) {
-  .logo img {
-    height: 16vh;
-    width: 9vw;
-  }
-}
-
 @media only screen and (min-width:1550px) {
   .part2 button {
     width: 150px;
@@ -445,6 +438,12 @@ address {
   }
 }
 
+@media only screen and (max-width: 1190px) and (min-width: 768px){
+  .logo img {
+    width: 12vw !important;
+  }
+}
+
 @media only screen and (max-width: 1423px) and (min-width: 768px) {
   .part2 button {
     width: 14vw;
@@ -452,6 +451,10 @@ address {
 
   .part2 input {
     width: 22vw;
+  }
+
+  .logo img {
+    width: 10vw;
   }
 }
 
