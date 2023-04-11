@@ -49,7 +49,8 @@
 }
 
 .nav-link:hover {
-  color: #976e02 !important;
+  background: rgb(197, 120, 1);
+  border-radius: 10px;
 }
 
 .carousel_top .carousel {
@@ -111,7 +112,9 @@
   font-size: 1.5rem;
   font-weight: 350;
 }
-
+.food-span{
+  color: rgba(176, 112, 10, 255);
+}
 .dish img {
   position: relative;
   left: 50%;
